@@ -1,0 +1,80 @@
+Kód kraja,Názov kraja,Kód územného obvodu,Názov územného obvodu,Kód okresu,Názov okresu,Poèet okrskov,Poèet zapísanıch volièov,Poèet vydanıch obálok,Úèas volièov v %,Poèet odovzdanıch obálok, Podiel odovzdanıch obálok v %,Poèet platnıch hlasov všetkıch kandidátov, Podiel platnıch hlasov všetkıch kandidátov v %
+1,Bratislavskı kraj,101,Bratislava,101,Bratislava I,  34, 39 187, 24 952,63.67, 24 931,99.91, 24 836,99.61
+1,Bratislavskı kraj,101,Bratislava,102,Bratislava II,  109, 104 219, 59 960,57.53, 59 933,99.95, 59 639,99.50
+1,Bratislavskı kraj,101,Bratislava,103,Bratislava III,  68, 59 733, 36 371,60.88, 36 355,99.95, 36 202,99.57
+1,Bratislavskı kraj,101,Bratislava,104,Bratislava IV,  87, 87 654, 52 700,60.12, 52 672,99.94, 52 469,99.61
+1,Bratislavskı kraj,101,Bratislava,105,Bratislava V,  63, 100 898, 58 381,57.86, 58 343,99.93, 58 147,99.66
+1,Bratislavskı kraj,102,Malacky,106,Malacky,  54, 61 170, 31 588,51.63, 31 582,99.98, 31 425,99.50
+1,Bratislavskı kraj,103,Pezinok,107,Pezinok,  53, 54 304, 33 651,61.96, 33 643,99.97, 33 508,99.59
+1,Bratislavskı kraj,104,Senec,108,Senec,  68, 68 813, 41 533,60.35, 41 520,99.96, 41 332,99.54
+2,Trnavskı kraj,201,Dunajská Streda,201,Dunajská Streda,  123, 101 705, 34 665,34.08, 34 651,99.95, 34 356,99.14
+2,Trnavskı kraj,202,Galanta,202,Galanta,  84, 78 715, 34 512,43.84, 34 498,99.95, 34 270,99.33
+2,Trnavskı kraj,203,Piešany,204,Piešany,  63, 53 072, 28 397,53.50, 28 384,99.95, 28 240,99.49
+2,Trnavskı kraj,204,Senica,205,Senica,  51, 50 209, 24 936,49.66, 24 936,100.00, 24 784,99.39
+2,Trnavskı kraj,204,Senica,206,Skalica,  44, 39 012, 19 943,51.12, 19 928,99.92, 19 817,99.44
+2,Trnavskı kraj,205,Trnava,203,Hlohovec,  45, 36 908, 19 054,51.62, 19 044,99.94, 18 916,99.32
+2,Trnavskı kraj,205,Trnava,207,Trnava,  117, 107 925, 59 033,54.69, 59 009,99.95, 58 698,99.47
+3,Trenèiansky kraj,301,Bánovce nad Bebravou,301,Bánovce nad Bebravou,  62, 30 002, 16 100,53.66, 16 096,99.97, 16 019,99.52
+3,Trenèiansky kraj,302,Nové Mesto nad Váhom,303,Myjava,  30, 22 278, 11 398,51.16, 11 398,100.00, 11 323,99.34
+3,Trenèiansky kraj,302,Nové Mesto nad Váhom,304,Nové Mesto nad Váhom,  67, 51 365, 27 802,54.12, 27 799,99.98, 27 610,99.32
+3,Trenèiansky kraj,303,Povaská Bystrica,306,Povaská Bystrica,  68, 51 662, 27 227,52.70, 27 222,99.98, 27 040,99.33
+3,Trenèiansky kraj,303,Povaská Bystrica,308,Púchov,  53, 36 947, 19 277,52.17, 19 271,99.96, 19 152,99.38
+3,Trenèiansky kraj,304,Prievidza,305,Partizánske,  52, 37 648, 19 383,51.48, 19 377,99.96, 19 270,99.44
+3,Trenèiansky kraj,304,Prievidza,307,Prievidza,  138, 112 222, 59 629,53.13, 59 604,99.95, 59 211,99.34
+3,Trenèiansky kraj,305,Trenèín,302,Ilava,  60, 48 987, 25 986,53.04, 25 973,99.94, 25 835,99.46
+3,Trenèiansky kraj,305,Trenèín,309,Trenèín,  115, 93 833, 52 720,56.18, 52 702,99.96, 52 355,99.34
+4,Nitriansky kraj,401,Komárno,401,Komárno,  108, 84 974, 23 665,27.84, 23 661,99.98, 23 465,99.17
+4,Nitriansky kraj,402,Levice,402,Levice,  162, 92 987, 41 006,44.09, 41 003,99.99, 40 764,99.41
+4,Nitriansky kraj,403,Nitra,403,Nitra,  161, 135 864, 70 015,51.53, 70 002,99.98, 69 669,99.52
+4,Nitriansky kraj,403,Nitra,407,Zlaté Moravce,  46, 34 536, 17 955,51.98, 17 951,99.97, 17 843,99.39
+4,Nitriansky kraj,404,Nové Zámky,404,Nové Zámky,  142, 117 262, 47 668,40.65, 47 659,99.98, 47 395,99.44
+4,Nitriansky kraj,405,Ša¾a,405,Ša¾a,  43, 42 856, 17 624,41.12, 17 617,99.96, 17 524,99.47
+4,Nitriansky kraj,406,Topo¾èany,406,Topo¾èany,  88, 59 823, 29 988,50.12, 29 984,99.98, 29 815,99.43
+5,ilinskı kraj,501,Èadca,502,Èadca,  77, 72 987, 33 978,46.55, 33 973,99.98, 33 756,99.36
+5,ilinskı kraj,502,Dolnı Kubín,503,Dolnı Kubín,  41, 31 400, 17 558,55.91, 17 550,99.95, 17 452,99.44
+5,ilinskı kraj,503,Liptovskı Mikuláš,505,Liptovskı Mikuláš,  96, 61 172, 33 067,54.05, 33 064,99.99, 32 848,99.34
+5,ilinskı kraj,504,Martin,506,Martin,  107, 78 588, 43 275,55.06, 43 270,99.98, 43 015,99.41
+5,ilinskı kraj,504,Martin,509,Turèianske Teplice,  32, 13 619, 7 375,54.15, 7 375,100.00, 7 331,99.40
+5,ilinskı kraj,505,Námestovo,507,Námestovo,  45, 46 005, 24 128,52.44, 24 121,99.97, 23 967,99.36
+5,ilinskı kraj,505,Námestovo,510,Tvrdošín,  32, 28 265, 16 331,57.77, 16 325,99.96, 16 195,99.20
+5,ilinskı kraj,506,Ruomberok,508,Ruomberok,  58, 47 451, 26 145,55.09, 26 125,99.92, 25 944,99.30
+5,ilinskı kraj,507,ilina,501,Bytèa,  33, 25 066, 12 629,50.38, 12 627,99.98, 12 549,99.38
+5,ilinskı kraj,507,ilina,504,Kysucké Nové Mesto,  28, 26 740, 14 288,53.43, 14 281,99.95, 14 183,99.31
+5,ilinskı kraj,507,ilina,511,ilina,  157, 131 245, 72 920,55.56, 72 905,99.97, 72 537,99.49
+6,Banskobystrickı kraj,601,Banská Bystrica,601,Banská Bystrica,  129, 91 492, 50 555,55.25, 50 536,99.96, 50 271,99.47
+6,Banskobystrickı kraj,602,Brezno,603,Brezno,  68, 49 941, 22 943,45.94, 22 936,99.96, 22 764,99.25
+6,Banskobystrickı kraj,603,Luèenec,606,Luèenec,  95, 57 531, 21 321,37.06, 21 317,99.98, 21 151,99.22
+6,Banskobystrickı kraj,603,Luèenec,607,Poltár,  38, 17 408, 7 960,45.72, 7 957,99.96, 7 899,99.27
+6,Banskobystrickı kraj,604,Rimavská Sobota,608,Revúca,  66, 30 705, 10 583,34.46, 10 583,100.00, 10 479,99.01
+6,Banskobystrickı kraj,604,Rimavská Sobota,609,Rimavská Sobota,  151, 64 251, 21 671,33.72, 21 670,99.99, 21 423,98.86
+6,Banskobystrickı kraj,605,Ve¾kı Krtíš,610,Ve¾kı Krtíš,  85, 35 225, 14 084,39.98, 14 081,99.97, 13 967,99.19
+6,Banskobystrickı kraj,606,Zvolen,604,Detva,  46, 26 323, 12 684,48.18, 12 684,100.00, 12 607,99.39
+6,Banskobystrickı kraj,606,Zvolen,605,Krupina,  45, 17 836, 9 439,52.92, 9 431,99.91, 9 361,99.25
+6,Banskobystrickı kraj,606,Zvolen,611,Zvolen,  76, 55 618, 29 270,52.62, 29 265,99.98, 29 098,99.42
+6,Banskobystrickı kraj,607,iar nad Hronom,602,Banská Štiavnica,  24, 13 214, 6 762,51.17, 6 762,100.00, 6 726,99.46
+6,Banskobystrickı kraj,607,iar nad Hronom,612,arnovica,  33, 21 308, 10 798,50.67, 10 787,99.89, 10 705,99.23
+6,Banskobystrickı kraj,607,iar nad Hronom,613,iar nad Hronom,  56, 37 923, 19 387,51.12, 19 377,99.94, 19 267,99.43
+7,Prešovskı kraj,701,Bardejov,701,Bardejov,  116, 59 910, 28 536,47.63, 28 527,99.96, 28 382,99.49
+7,Prešovskı kraj,702,Humenné,702,Humenné,  86, 50 160, 22 381,44.61, 22 378,99.98, 22 219,99.28
+7,Prešovskı kraj,702,Humenné,705,Medzilaborce,  30, 9 265, 3 810,41.12, 3 810,100.00, 3 774,99.05
+7,Prešovskı kraj,702,Humenné,709,Snina,  48, 29 508, 11 195,37.93, 11 190,99.95, 11 136,99.51
+7,Prešovskı kraj,703,Kemarok,703,Kemarok,  67, 52 474, 22 579,43.02, 22 575,99.98, 22 403,99.23
+7,Prešovskı kraj,704,Poprad,704,Levoèa,  47, 25 706, 11 625,45.22, 11 623,99.98, 11 551,99.38
+7,Prešovskı kraj,704,Poprad,706,Poprad,  89, 84 173, 42 696,50.72, 42 679,99.96, 42 434,99.42
+7,Prešovskı kraj,705,Prešov,707,Prešov,  180, 133 786, 68 121,50.91, 68 108,99.98, 67 741,99.46
+7,Prešovskı kraj,705,Prešov,708,Sabinov,  61, 43 703, 19 896,45.52, 19 894,99.98, 19 719,99.12
+7,Prešovskı kraj,706,Stará ¼ubovòa,710,Stará ¼ubovòa,  62, 39 869, 17 718,44.44, 17 713,99.97, 17 575,99.22
+7,Prešovskı kraj,707,Stropkov,711,Stropkov,  52, 16 141, 7 395,45.81, 7 395,100.00, 7 336,99.20
+7,Prešovskı kraj,708,Svidník,712,Svidník,  78, 25 789, 11 655,45.19, 11 655,100.00, 11 591,99.45
+7,Prešovskı kraj,709,Vranov nad Top¾ou,713,Vranov nad Top¾ou,  93, 60 693, 24 673,40.65, 24 664,99.96, 24 510,99.37
+8,Košickı kraj,801,Košice,802,Košice I,  58, 54 540, 27 548,50.50, 27 541,99.97, 27 403,99.49
+8,Košickı kraj,801,Košice,803,Košice II,  60, 65 197, 30 123,46.20, 30 113,99.96, 29 977,99.54
+8,Košickı kraj,801,Košice,804,Košice III,  26, 23 991, 10 956,45.66, 10 951,99.95, 10 891,99.45
+8,Košickı kraj,801,Košice,805,Košice IV,  54, 47 660, 23 514,49.33, 23 509,99.97, 23 410,99.57
+8,Košickı kraj,802,Košice - okolie,806,Košice - okolie,  144, 96 611, 41 016,42.45, 41 002,99.96, 40 680,99.21
+8,Košickı kraj,803,Michalovce,807,Michalovce,  132, 86 702, 32 803,37.83, 32 800,99.99, 32 574,99.31
+8,Košickı kraj,803,Michalovce,809,Sobrance,  52, 17 913, 7 700,42.98, 7 699,99.98, 7 658,99.46
+8,Košickı kraj,804,Roòava,808,Roòava,  88, 47 830, 18 027,37.68, 18 025,99.98, 17 886,99.22
+8,Košickı kraj,805,Spišská Nová Ves,801,Gelnica,  31, 23 915, 9 225,38.57, 9 221,99.95, 9 161,99.34
+8,Košickı kraj,805,Spišská Nová Ves,810,Spišská Nová Ves,  83, 73 532, 31 943,43.44, 31 942,99.99, 31 752,99.40
+8,Košickı kraj,806,Trebišov,811,Trebišov,  127, 81 882, 27 454,33.52, 27 448,99.97, 27 177,99.01

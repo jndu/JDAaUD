@@ -1,0 +1,99 @@
+Kód kraja,Názov kraja,Kód územného obvodu,Názov územného obvodu,Poradie na hlasovacom lístku,Meno,Priezvisko,Poèet platnıch hlasov,Podiel platnıch hlasov z platnıch hlasov pre všetkıch kandidátov v %,"Poèet platnıch hlasov v mestách a mestskıch èastiach","Podiel platnıch hlasov v mestách a mestskıch èastiach v %","Poèet platnıch hlasov v obciach","Podiel platnıch hlasov v obciach v %"
+1,Bratislavskı kraj,101,Bratislava,1,Zuzana,Èaputová, 160 616,74.61, 160 616,74.61,  0,0.00
+1,Bratislavskı kraj,101,Bratislava,2,Maroš,Šefèoviè, 54 644,25.38, 54 644,25.38,  0,0.00
+1,Bratislavskı kraj,102,Malacky,1,Zuzana,Èaputová, 18 196,66.78, 8 151,69.91, 10 045,64.43
+1,Bratislavskı kraj,102,Malacky,2,Maroš,Šefèoviè, 9 051,33.21, 3 507,30.08, 5 544,35.56
+1,Bratislavskı kraj,103,Pezinok,1,Zuzana,Èaputová, 21 414,71.93, 13 498,74.83, 7 916,67.46
+1,Bratislavskı kraj,103,Pezinok,2,Maroš,Šefèoviè, 8 356,28.06, 4 538,25.16, 3 818,32.53
+1,Bratislavskı kraj,104,Senec,1,Zuzana,Èaputová, 27 728,75.26, 5 279,73.08, 22 449,75.79
+1,Bratislavskı kraj,104,Senec,2,Maroš,Šefèoviè, 9 113,24.73, 1 944,26.91, 7 169,24.20
+2,Trnavskı kraj,201,Dunajská Streda,1,Zuzana,Èaputová, 25 813,83.94, 10 672,83.97, 15 141,83.93
+2,Trnavskı kraj,201,Dunajská Streda,2,Maroš,Šefèoviè, 4 936,16.05, 2 037,16.02, 2 899,16.06
+2,Trnavskı kraj,202,Galanta,1,Zuzana,Èaputová, 19 686,68.25, 7 914,65.91, 11 772,69.93
+2,Trnavskı kraj,202,Galanta,2,Maroš,Šefèoviè, 9 154,31.74, 4 093,34.08, 5 061,30.06
+2,Trnavskı kraj,203,Piešany,1,Zuzana,Èaputová, 14 451,60.03, 8 767,63.99, 5 684,54.80
+2,Trnavskı kraj,203,Piešany,2,Maroš,Šefèoviè, 9 620,39.96, 4 933,36.00, 4 687,45.19
+2,Trnavskı kraj,204,Senica,1,Zuzana,Èaputová, 24 652,64.46, 12 855,66.47, 11 797,62.40
+2,Trnavskı kraj,204,Senica,2,Maroš,Šefèoviè, 13 590,35.53, 6 482,33.52, 7 108,37.59
+2,Trnavskı kraj,205,Trnava,1,Zuzana,Èaputová, 38 596,58.77, 20 483,61.47, 18 113,55.99
+2,Trnavskı kraj,205,Trnava,2,Maroš,Šefèoviè, 27 070,41.22, 12 836,38.52, 14 234,44.00
+3,Trenèiansky kraj,301,Bánovce nad Bebravou,1,Zuzana,Èaputová, 5 928,45.03, 2 887,47.73, 3 041,42.74
+3,Trenèiansky kraj,301,Bánovce nad Bebravou,2,Maroš,Šefèoviè, 7 234,54.96, 3 161,52.26, 4 073,57.25
+3,Trenèiansky kraj,302,Nové Mesto nad Váhom,1,Zuzana,Èaputová, 19 506,57.75, 10 527,60.90, 8 979,54.46
+3,Trenèiansky kraj,302,Nové Mesto nad Váhom,2,Maroš,Šefèoviè, 14 265,42.24, 6 757,39.09, 7 508,45.53
+3,Trenèiansky kraj,303,Povaská Bystrica,1,Zuzana,Èaputová, 17 518,45.67, 10 496,50.86, 7 022,39.63
+3,Trenèiansky kraj,303,Povaská Bystrica,2,Maroš,Šefèoviè, 20 835,54.32, 10 139,49.13, 10 696,60.36
+3,Trenèiansky kraj,304,Prievidza,1,Zuzana,Èaputová, 32 528,50.20, 17 783,53.79, 14 745,46.45
+3,Trenèiansky kraj,304,Prievidza,2,Maroš,Šefèoviè, 32 265,49.79, 15 271,46.20, 16 994,53.54
+3,Trenèiansky kraj,305,Trenèín,1,Zuzana,Èaputová, 36 962,54.80, 24 634,58.72, 12 328,48.36
+3,Trenèiansky kraj,305,Trenèín,2,Maroš,Šefèoviè, 30 478,45.19, 17 317,41.27, 13 161,51.63
+4,Nitriansky kraj,401,Komárno,1,Zuzana,Èaputová, 14 937,72.94, 8 605,73.45, 6 332,72.26
+4,Nitriansky kraj,401,Komárno,2,Maroš,Šefèoviè, 5 539,27.05, 3 109,26.54, 2 430,27.73
+4,Nitriansky kraj,402,Levice,1,Zuzana,Èaputová, 20 905,61.56, 11 004,66.59, 9 901,56.79
+4,Nitriansky kraj,402,Levice,2,Maroš,Šefèoviè, 13 051,38.43, 5 519,33.40, 7 532,43.20
+4,Nitriansky kraj,403,Nitra,1,Zuzana,Èaputová, 40 023,54.19, 21 762,57.43, 18 261,50.78
+4,Nitriansky kraj,403,Nitra,2,Maroš,Šefèoviè, 33 829,45.80, 16 129,42.56, 17 700,49.21
+4,Nitriansky kraj,404,Nové Zámky,1,Zuzana,Èaputová, 24 230,59.76, 12 320,65.59, 11 910,54.73
+4,Nitriansky kraj,404,Nové Zámky,2,Maroš,Šefèoviè, 16 311,40.23, 6 463,34.40, 9 848,45.26
+4,Nitriansky kraj,405,Ša¾a,1,Zuzana,Èaputová, 10 802,70.96, 5 576,71.33, 5 226,70.58
+4,Nitriansky kraj,405,Ša¾a,2,Maroš,Šefèoviè, 4 419,29.03, 2 241,28.66, 2 178,29.41
+4,Nitriansky kraj,406,Topo¾èany,1,Zuzana,Èaputová, 10 552,42.03, 4 119,45.63, 6 433,40.00
+4,Nitriansky kraj,406,Topo¾èany,2,Maroš,Šefèoviè, 14 553,57.96, 4 906,54.36, 9 647,59.99
+5,ilinskı kraj,501,Èadca,1,Zuzana,Èaputová, 9 048,32.68, 3 983,34.36, 5 065,31.47
+5,ilinskı kraj,501,Èadca,2,Maroš,Šefèoviè, 18 635,67.31, 7 607,65.63, 11 028,68.52
+5,ilinskı kraj,502,Dolnı Kubín,1,Zuzana,Èaputová, 8 261,60.04, 4 154,62.22, 4 107,57.98
+5,ilinskı kraj,502,Dolnı Kubín,2,Maroš,Šefèoviè, 5 498,39.95, 2 522,37.77, 2 976,42.01
+5,ilinskı kraj,503,Liptovskı Mikuláš,1,Zuzana,Èaputová, 16 089,57.74, 8 607,58.64, 7 482,56.74
+5,ilinskı kraj,503,Liptovskı Mikuláš,2,Maroš,Šefèoviè, 11 773,42.25, 6 069,41.35, 5 704,43.25
+5,ilinskı kraj,504,Martin,1,Zuzana,Èaputová, 23 128,55.00, 15 314,56.77, 7 814,51.83
+5,ilinskı kraj,504,Martin,2,Maroš,Šefèoviè, 18 920,44.99, 11 658,43.22, 7 262,48.16
+5,ilinskı kraj,505,Námestovo,1,Zuzana,Èaputová, 13 649,47.19, 4 164,50.74, 9 485,45.79
+5,ilinskı kraj,505,Námestovo,2,Maroš,Šefèoviè, 15 270,52.80, 4 041,49.25, 11 229,54.20
+5,ilinskı kraj,506,Ruomberok,1,Zuzana,Èaputová, 11 295,55.49, 5 805,59.25, 5 490,52.01
+5,ilinskı kraj,506,Ruomberok,2,Maroš,Šefèoviè, 9 057,44.50, 3 992,40.74, 5 065,47.98
+5,ilinskı kraj,507,ilina,1,Zuzana,Èaputová, 42 333,51.45, 26 051,57.14, 16 282,44.38
+5,ilinskı kraj,507,ilina,2,Maroš,Šefèoviè, 39 940,48.54, 19 540,42.85, 20 400,55.61
+6,Banskobystrickı kraj,601,Banská Bystrica,1,Zuzana,Èaputová, 26 531,61.92, 19 263,63.64, 7 268,57.76
+6,Banskobystrickı kraj,601,Banská Bystrica,2,Maroš,Šefèoviè, 16 316,38.07, 11 002,36.35, 5 314,42.23
+6,Banskobystrickı kraj,602,Brezno,1,Zuzana,Èaputová, 9 710,51.22, 3 462,54.05, 6 248,49.78
+6,Banskobystrickı kraj,602,Brezno,2,Maroš,Šefèoviè, 9 245,48.77, 2 942,45.94, 6 303,50.21
+6,Banskobystrickı kraj,603,Luèenec,1,Zuzana,Èaputová, 13 131,55.07, 6 648,61.56, 6 483,49.70
+6,Banskobystrickı kraj,603,Luèenec,2,Maroš,Šefèoviè, 10 710,44.92, 4 150,38.43, 6 560,50.29
+6,Banskobystrickı kraj,604,Rimavská Sobota,1,Zuzana,Èaputová, 13 928,55.94, 7 647,57.41, 6 281,54.24
+6,Banskobystrickı kraj,604,Rimavská Sobota,2,Maroš,Šefèoviè, 10 970,44.05, 5 672,42.58, 5 298,45.75
+6,Banskobystrickı kraj,605,Ve¾kı Krtíš,1,Zuzana,Èaputová, 5 821,52.61, 1 907,53.77, 3 914,52.06
+6,Banskobystrickı kraj,605,Ve¾kı Krtíš,2,Maroš,Šefèoviè, 5 242,47.38, 1 639,46.22, 3 603,47.93
+6,Banskobystrickı kraj,606,Zvolen,1,Zuzana,Èaputová, 22 224,52.84, 14 755,55.05, 7 469,48.95
+6,Banskobystrickı kraj,606,Zvolen,2,Maroš,Šefèoviè, 19 834,47.15, 12 046,44.94, 7 788,51.04
+6,Banskobystrickı kraj,607,iar nad Hronom,1,Zuzana,Èaputová, 16 022,53.89, 8 731,56.87, 7 291,50.71
+6,Banskobystrickı kraj,607,iar nad Hronom,2,Maroš,Šefèoviè, 13 706,46.10, 6 621,43.12, 7 085,49.28
+7,Prešovskı kraj,701,Bardejov,1,Zuzana,Èaputová, 10 662,45.61, 5 298,53.35, 5 364,39.89
+7,Prešovskı kraj,701,Bardejov,2,Maroš,Šefèoviè, 12 711,54.38, 4 631,46.64, 8 080,60.10
+7,Prešovskı kraj,702,Humenné,1,Zuzana,Èaputová, 11 614,37.20, 6 566,42.14, 5 048,32.29
+7,Prešovskı kraj,702,Humenné,2,Maroš,Šefèoviè, 19 599,62.79, 9 015,57.85, 10 584,67.70
+7,Prešovskı kraj,703,Kemarok,1,Zuzana,Èaputová, 9 547,59.95, 4 563,61.23, 4 984,58.82
+7,Prešovskı kraj,703,Kemarok,2,Maroš,Šefèoviè, 6 377,40.04, 2 889,38.76, 3 488,41.17
+7,Prešovskı kraj,704,Poprad,1,Zuzana,Èaputová, 26 226,61.07, 17 225,62.96, 9 001,57.75
+7,Prešovskı kraj,704,Poprad,2,Maroš,Šefèoviè, 16 715,38.92, 10 132,37.03, 6 583,42.24
+7,Prešovskı kraj,705,Prešov,1,Zuzana,Èaputová, 38 661,54.11, 22 918,59.37, 15 743,47.93
+7,Prešovskı kraj,705,Prešov,2,Maroš,Šefèoviè, 32 782,45.88, 15 683,40.62, 17 099,52.06
+7,Prešovskı kraj,706,Stará ¼ubovòa,1,Zuzana,Èaputová, 5 805,41.66, 2 585,48.81, 3 220,37.27
+7,Prešovskı kraj,706,Stará ¼ubovòa,2,Maroš,Šefèoviè, 8 129,58.33, 2 711,51.18, 5 418,62.72
+7,Prešovskı kraj,707,Stropkov,1,Zuzana,Èaputová, 2 459,38.93, 1 394,46.87, 1 065,31.87
+7,Prešovskı kraj,707,Stropkov,2,Maroš,Šefèoviè, 3 856,61.06, 1 580,53.12, 2 276,68.12
+7,Prešovskı kraj,708,Svidník,1,Zuzana,Èaputová, 3 200,33.65, 1 508,36.48, 1 692,31.47
+7,Prešovskı kraj,708,Svidník,2,Maroš,Šefèoviè, 6 309,66.34, 2 625,63.51, 3 684,68.52
+7,Prešovskı kraj,709,Vranov nad Top¾ou,1,Zuzana,Èaputová, 6 589,33.43, 2 725,39.78, 3 864,30.05
+7,Prešovskı kraj,709,Vranov nad Top¾ou,2,Maroš,Šefèoviè, 13 118,66.56, 4 124,60.21, 8 994,69.94
+8,Košickı kraj,801,Košice,1,Zuzana,Èaputová, 54 033,67.63, 54 033,67.63,  0,0.00
+8,Košickı kraj,801,Košice,2,Maroš,Šefèoviè, 25 855,32.36, 25 855,32.36,  0,0.00
+8,Košickı kraj,802,Košice - okolie,1,Zuzana,Èaputová, 20 396,61.93, 2 020,67.42, 18 376,61.39
+8,Košickı kraj,802,Košice - okolie,2,Maroš,Šefèoviè, 12 533,38.06,  976,32.57, 11 557,38.60
+8,Košickı kraj,803,Michalovce,1,Zuzana,Èaputová, 13 968,42.33, 7 307,47.98, 6 661,37.49
+8,Košickı kraj,803,Michalovce,2,Maroš,Šefèoviè, 19 026,57.66, 7 920,52.01, 11 106,62.50
+8,Košickı kraj,804,Roòava,1,Zuzana,Èaputová, 9 370,64.65, 3 926,69.33, 5 444,61.64
+8,Košickı kraj,804,Roòava,2,Maroš,Šefèoviè, 5 123,35.34, 1 736,30.66, 3 387,38.35
+8,Košickı kraj,805,Spišská Nová Ves,1,Zuzana,Èaputová, 16 894,51.90, 8 910,53.70, 7 984,50.02
+8,Košickı kraj,805,Spišská Nová Ves,2,Maroš,Šefèoviè, 15 657,48.09, 7 680,46.29, 7 977,49.97
+8,Košickı kraj,806,Trebišov,1,Zuzana,Èaputová, 10 945,49.45, 4 735,52.41, 6 210,47.42
+8,Košickı kraj,806,Trebišov,2,Maroš,Šefèoviè, 11 184,50.54, 4 299,47.58, 6 885,52.57
