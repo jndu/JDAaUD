@@ -56,12 +56,12 @@ std::string VolebneUdaje::ocistiRetazec(const std::string& retazec)
 	return odstranBieleZnaky(odstranUvodzovky(odstranBieleZnaky(retazec)));
 }
 
-void VolebneUdaje::nacitajObce()
+void VolebneUdaje::nacitajObce(structures::SortedSequenceTable<int, Okres*> okresy)
 {
 	csv::Parser file1 = csv::Parser("csvANSI/kolo1/PRE_2019_KOLO1_tab02d_ANSI.csv");
 	for (unsigned i = 0; i < file1.rowCount(); i++)
 	{
-		obce_.add(nacitajObec(file1.getRow(i)));
+		obce_.add(nacitajObec(file1.getRow(i), okresy));
 	}
 
 	// doplnenie udajov pre druhe kolo
@@ -111,14 +111,11 @@ void VolebneUdaje::nacitajKoloObec(const csv::Row& riadok, Kolo& kolo)
 	kolo.setPodielPlatnychHlasovVsetkychKandidatov(vyberDesatinneCislo(riadok[15]));
 }
 
-Obec* VolebneUdaje::nacitajObec(const csv::Row& riadok)
+Obec* VolebneUdaje::nacitajObec(const csv::Row& riadok, structures::SortedSequenceTable<int, Okres*> okresy)
 {
 	Obec* obec = new Obec;
 	obec->setTyp(TypUzemnejJednotky::OBEC);
-	obec->setKodKraja(vyberCeleCislo(riadok[0]));
-	obec->setNazovKraja(ocistiRetazec(riadok[1]));
-	obec->setKodOkresu(vyberCeleCislo(riadok[4]));
-	obec->setNazovOkresu(ocistiRetazec(riadok[5]));
+	obec->setOkres(okresy[vyberCeleCislo(riadok[4])]);
 	obec->setKod(vyberCeleCislo(riadok[6]));
 	obec->setNazov(ocistiRetazec(riadok[7]));
 
@@ -127,12 +124,12 @@ Obec* VolebneUdaje::nacitajObec(const csv::Row& riadok)
 	return obec;
 }
 
-void VolebneUdaje::nacitajOkresy()
+void VolebneUdaje::nacitajOkresy(structures::SortedSequenceTable<int, Kraj*> kraje)
 {
 	csv::Parser file = csv::Parser("csvANSI/kolo1/PRE_2019_KOLO1_tab02c_ANSI.csv");
 	for (unsigned i = 0; i < file.rowCount(); i++)
 	{
-		okresy_.add(nacitajOkres(file.getRow(i)));
+		okresy_.add(nacitajOkres(file.getRow(i), kraje));
 	}
 	// doplnenie udajov pre druhe kolo
 	csv::Parser file2 = csv::Parser("csvANSI/kolo2/PRE_2019_KOLO2_tab02c_ANSI.csv");
@@ -170,12 +167,11 @@ void VolebneUdaje::nacitajHlasyZaKoloOkres(const csv::Row& riadok, Kolo& kolo, c
 	}
 }
 
-Okres* VolebneUdaje::nacitajOkres(const csv::Row& riadok)
+Okres* VolebneUdaje::nacitajOkres(const csv::Row& riadok, structures::SortedSequenceTable<int, Kraj*> kraje)
 {
 	Okres* okres = new Okres;
 	okres->setTyp(TypUzemnejJednotky::OKRES);
-	okres->setKodKraja(vyberCeleCislo(riadok[0]));
-	okres->setNazovKraja(ocistiRetazec(riadok[1]));
+	okres->setKraj(kraje[vyberCeleCislo(riadok[0])]);
 	okres->setKod(vyberCeleCislo(riadok[4]));
 	okres->setNazov(ocistiRetazec(riadok[5]));
 
@@ -306,13 +302,6 @@ Kandidat* VolebneUdaje::nacitajKandidata(const csv::Row& riadok)
 	return kandidat;
 }
 
-void VolebneUdaje::nacitajData()
-{
-	nacitajKandidatov();
-	nacitajObce();
-	nacitajOkresy();
-	nacitajKraje();
-}
 
 void VolebneUdaje::uvolniData()
 {
@@ -325,9 +314,4 @@ void VolebneUdaje::uvolniData()
 VolebneUdaje::~VolebneUdaje()
 {
 	uvolniData();
-}
-
-void VolebneUdaje::nacitaj()
-{
-	nacitajData();
 }

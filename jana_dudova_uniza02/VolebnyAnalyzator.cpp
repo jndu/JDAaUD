@@ -1,22 +1,5 @@
 #include "VolebnyAnalyzator.h"
 
-void VolebnyAnalyzator::pripravStruktury()
-{
-	kandidati_ = volebneUdaje.getKandidati();
-	obce_ = volebneUdaje.getObce();
-	okresy_ = volebneUdaje.getOkresy();
-	kraje_ = volebneUdaje.getKraje();
-
-	for (const Kandidat* kandidat : kandidati_)
-	{
-		usporiadaniKandidati_.insert(kandidat->getCeleMeno(), kandidat);
-	}
-
-	pripravSpecializovaneKolekcie(obce_, usporiadaneObce_);
-	pripravSpecializovaneKolekcie(okresy_, usporiadaneOkresy_);
-	pripravSpecializovaneKolekcie(kraje_, usporiadaneKraje_);
-}
-
 void VolebnyAnalyzator::zobrazMenu()
 {
 	std::cout << "0 - koniec" << std::endl;
@@ -276,16 +259,16 @@ void VolebnyAnalyzator::vypisInformacieOObciach()
 	KriteriumPlatneHlasy kPlatneHlasy(TypKola::OBE);
 
 	// namiesto hladanie okresu a kraja sa dali pouzit nazvy priamo z item lebo je to obec a obsahuje ich
-	for (const auto item : result)
+	for (const auto obec : result)
 	{
-		std::cout << kNazov.evaluate(*item) << "; " <<
-			kNazov.evaluate(*usporiadaneOkresy_[item->getKodOkresu()]) << "; " <<
-			kNazov.evaluate(*usporiadaneKraje_[item->getKodKraja()]) << "; " <<
-			kVolici.evaluate(*item) << "; " <<
-			kVydaneObalky.evaluate(*item) << "; " <<
-			kUcast.evaluate(*item) << "; " <<
-			kOdovzdaneObalky.evaluate(*item) << "; " <<
-			kPlatneHlasy.evaluate(*item) << std::endl;
+		std::cout << kNazov.evaluate(*obec) << "; " <<
+			obec->getOkres()->getNazov() /*kNazov.evaluate(*usporiadaneOkresy_[obec->getKodOkresu()])*/ << "; " <<
+			obec->getOkres()->getKraj()->getNazov() /* kNazov.evaluate(*usporiadaneKraje_[obec->getKodKraja()]) */ << "; " <<
+			kVolici.evaluate(*obec) << "; " <<
+			kVydaneObalky.evaluate(*obec) << "; " <<
+			kUcast.evaluate(*obec) << "; " <<
+			kOdovzdaneObalky.evaluate(*obec) << "; " <<
+			kPlatneHlasy.evaluate(*obec) << std::endl;
 	}
 }
 
@@ -357,15 +340,15 @@ void VolebnyAnalyzator::vypisanieInformaciiOUzemnychJednotkach()
 		std::cout << kNazov.evaluate(*item) << "; ";
 		if (item->getTyp() == TypUzemnejJednotky::OBEC)
 		{
-			auto obec = dynamic_cast<const Obec*>(item);
+			Obec * obec = dynamic_cast<Obec*>(item);
 			// namiesto hladania by stacilo pristupit k clenom objektu obec lebo obsahuje nazov kraja aj okresu
-			std::cout << kNazov.evaluate(*usporiadaneOkresy_[obec->getKodOkresu()]) << "; " <<
-				kNazov.evaluate(*usporiadaneKraje_[obec->getKodKraja()]) << "; ";
+			std::cout << obec->getOkres()->getNazov() /* kNazov.evaluate(*usporiadaneOkresy_[obec->getKodOkresu()]) */ << "; " <<
+				obec->getOkres()->getKraj()->getNazov() /* kNazov.evaluate(*usporiadaneKraje_[obec->getKodKraja()]) */ << "; ";
 		}
 		else if (item->getTyp() == TypUzemnejJednotky::OKRES)
 		{
-			auto okres = dynamic_cast<const Okres*>(item);
-			std::cout << kNazov.evaluate(*usporiadaneKraje_[okres->getKodKraja()]) << "; ";
+			//Okres * okres = dynamic_cast<Okres*>(item);
+			std::cout << dynamic_cast<Okres*>(item)->getKraj()->getNazov() /*kNazov.evaluate(*usporiadaneKraje_[okres->getKodKraja()])*/ << "; ";
 		}
 		std::cout << kVolici.evaluate(*item) << "; " <<
 			kVydaneObalky.evaluate(*item) << "; " <<
@@ -584,8 +567,24 @@ void VolebnyAnalyzator::spusti()
 
 	//std::locale::global(std::locale("")); // for C++
 	//std::std::cout.imbue(std::locale());
-	volebneUdaje.nacitaj();
-	pripravStruktury();
+	volebneUdaje.nacitajKandidatov();
+	kandidati_ = volebneUdaje.getKandidati();
+	for (const Kandidat* kandidat : kandidati_)
+	{
+		usporiadaniKandidati_.insert(kandidat->getCeleMeno(), kandidat);
+	}
+
+	volebneUdaje.nacitajKraje();
+	kraje_ = volebneUdaje.getKraje();
+	pripravSpecializovaneKolekcie(kraje_, usporiadaneKraje_);
+
+	volebneUdaje.nacitajOkresy(usporiadaneKraje_);
+	okresy_ = volebneUdaje.getOkresy();
+	pripravSpecializovaneKolekcie(okresy_, usporiadaneOkresy_);
+
+	volebneUdaje.nacitajObce(usporiadaneOkresy_);
+	obce_ = volebneUdaje.getObce();
+	pripravSpecializovaneKolekcie(obce_, usporiadaneObce_);
 
 	setlocale(LC_ALL, "");
 	std::cout << "*** Vitajte vo volebnom analyzátore ***" << std::endl;

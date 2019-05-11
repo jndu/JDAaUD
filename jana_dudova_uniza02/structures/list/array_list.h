@@ -16,6 +16,10 @@ namespace structures
 		/// <summary> Konstruktor. </summary>
 		ArrayList();
 
+		/// <summary> Konstruktor. </summary>
+		/// <param name = "expectedSize"> Expected number of items in list </param>
+		ArrayList(int expectedSize);
+
 		/// <summary> Kopirovaci konstruktor. </summary>
 		/// <param name = "other"> ArrayList, z ktoreho sa prevezmu vlastnosti. </param>
 		ArrayList(const ArrayList<T>& other);
@@ -140,9 +144,17 @@ namespace structures
 	};
 
 	template<typename T>
-	inline ArrayList<T>::ArrayList():
+	inline ArrayList<T>::ArrayList() :
 		List(),
 		array_(new Array<T>(4)),
+		size_(0)
+	{
+	}
+
+	template<typename T>
+	inline ArrayList<T>::ArrayList(int expectedSize) :
+		List(),
+		array_(new Array<T>(expectedSize)),
 		size_(0)
 	{
 	}

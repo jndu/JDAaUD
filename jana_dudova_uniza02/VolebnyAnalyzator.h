@@ -35,13 +35,13 @@ private:
 	structures::ArrayList<UzemnaJednotka*> uzemneJednotky_;
 
 	structures::SortedSequenceTable<std::string, const Kandidat*> usporiadaniKandidati_;
-	structures::SortedSequenceTable<int, const Obec*> usporiadaneObce_;
-	structures::SortedSequenceTable<int, const Okres*> usporiadaneOkresy_;
-	structures::SortedSequenceTable<int, const Kraj*> usporiadaneKraje_;
+	structures::SortedSequenceTable<int, Obec*> usporiadaneObce_;
+	structures::SortedSequenceTable<int, Okres*> usporiadaneOkresy_;
+	structures::SortedSequenceTable<int, Kraj*> usporiadaneKraje_;
 
 	template<typename T>
 	void pripravSpecializovaneKolekcie(const structures::ArrayList<T*>& objekty,
-		structures::SortedSequenceTable<int, const T*>& usporiadaneObjekty)
+		structures::SortedSequenceTable<int, T*>& usporiadaneObjekty)
 	{
 		for (T* objekt : objekty)
 		{

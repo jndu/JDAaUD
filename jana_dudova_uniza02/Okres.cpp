@@ -1,21 +1,12 @@
 #include "Okres.h"
 
-int Okres::getKodKraja() const 
+Kraj* Okres::getKraj() const 
 { 
-	return kodKraja_; 
+	return kraj_; 
 }
 
-std::string Okres::getNazovKraja() const
-{ 
-	return nazovKraja_; 
-}
 
-void Okres::setKodKraja(int kodKraja)
+void Okres::setKraj(Kraj *kraj)
 { 
-	kodKraja_ = kodKraja; 
-}
-
-void Okres::setNazovKraja(const std::string& nazovKraja)
-{
-	nazovKraja_ = nazovKraja; 
+	kraj_ = kraj; 
 }

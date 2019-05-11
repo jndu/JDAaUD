@@ -1,17 +1,15 @@
 #pragma once
 
 #include "VyssiCelok.h"
+#include "Kraj.h"
 
 class Okres : public VyssiCelok
 {
 private:
-	int kodKraja_;
-	std::string nazovKraja_;
+	Kraj* kraj_;
 
 public:
-	int getKodKraja() const;
-	std::string getNazovKraja() const;
+	Kraj* getKraj() const;
 
-	void setKodKraja(int kodKraja);
-	void setNazovKraja(const std::string& nazovKraja);
+	void setKraj(Kraj * kraj);
 };
